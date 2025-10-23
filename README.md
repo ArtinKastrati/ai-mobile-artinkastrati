@@ -15,10 +15,19 @@ The app automatically starts when you open this Repl. You can view the web previ
 
 ## Project Structure
 
-- `App.js` - Main application component
-- `app.json` - Expo configuration
-- `metro.config.js` - Metro bundler configuration for Replit
-- `package.json` - Dependencies and scripts
+```
+/ai-mobile-artinkastrati
+├── /src
+│   ├── App.js - Main application component
+│   ├── /components - Reusable UI components
+│   └── /services - API services and utilities
+├── /assets - Images, fonts, and other static assets
+├── app.json - Expo configuration
+├── metro.config.js - Metro bundler configuration
+├── package.json - Dependencies and scripts
+├── .env.example - Environment variables template
+└── AI-log.txt - AI development log
+```
 
 ## Documentation
 

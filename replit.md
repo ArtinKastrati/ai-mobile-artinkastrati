@@ -11,12 +11,22 @@ This is a mobile application built with React Native and Expo. The project is co
 - **Web Support**: React Native Web for browser compatibility
 - **Bundler**: Metro (configured for Replit proxy support)
 
-### Key Files
-- `App.js` - Main application entry point
-- `app.json` - Expo configuration
-- `package.json` - Dependencies and scripts
-- `metro.config.js` - Metro bundler configuration with CORS and iframe support for Replit
-- `index.js` - Entry point for web bundle
+### Project Structure
+```
+/ai-mobile-artinkastrati
+├── /src
+│   ├── App.js - Main application component
+│   ├── /components - Reusable UI components
+│   └── /services - API services and utilities
+├── /assets - Images, fonts, and other static assets
+├── app.json - Expo configuration
+├── metro.config.js - Metro bundler configuration
+├── index.js - Entry point for web bundle
+├── package.json - Dependencies and scripts
+├── .env.example - Environment variables template
+├── AI-log.txt - AI development log
+└── README.md - Project documentation
+```
 
 ## Development Setup
 
